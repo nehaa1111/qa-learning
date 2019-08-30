@@ -1,0 +1,145 @@
+body{
+    color: white;
+    font-family: 'Thasadith', sans-serif;
+    font-size: 18px;}
+
+header{
+     background-color: #D9D9D9;
+     width: 100%;}
+
+#head1{
+    width: 30%;
+    height: 100%;
+    float: left;}
+
+
+#head2 ul{
+    width: 60%;
+    text-align:right;
+    color: #005b86;
+    padding-left: 300px;}
+
+#head2 li{
+	display: inline-block;
+	padding:20px;}
+
+#banner{
+    width: 100%;
+    background-color: #06A3CC;
+    position: relative;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 200%;
+   padding: 1px 0 1px 0;}
+
+ #img_l{
+    position: absolute;
+    top: 70px;
+    left: 25px;}
+
+#img_r{
+    position: absolute;
+    top: 70px;
+    right: 25px;}
+
+ footer{
+    background-color: #007694;
+    width: 100%;
+    height: 80px;
+margin-top:530px;}
+
+footer ul{
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 0px 0px;
+    height: 100%;}
+
+footer li{
+    display: inline-block;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-right: 1%;
+    padding-left: 1%;}
+
+li:hover{
+    background-color: black;
+    color: white;}
+
+a{
+  text-decoration: none;
+  color: inherit;}
+
+
+header:after {
+	content: "";
+  	display: table;
+	clear: both;}
+
+.sidebar:after {
+  	content: "";
+  	display: table;
+  	clear: both;}
+
+form{
+
+    padding: 1%;
+    height: 80%;
+    }
+
+.bt{
+   padding: 3px;
+  margin-left: 50px;
+   box-sizing: border-box;
+   background-color: #F8A549;
+   border: 1px solid #F9C794;
+   color: white; }
+
+.f1{
+  padding: 3px;
+  margin-bottom: 10px;
+margin-left: 50px;
+  width: 50%;
+  box-sizing: border-box;
+  background-color: #F8A549;
+  border: 1px solid #F9C794;
+  color: inherit;}
+
+#main{
+	margin:0.5% 3% 0.5% 3%;}
+
+#left{
+    background-color: #FFE469;
+    height:500px;
+    width: 40%;
+    float: left;}
+
+#linner{
+    background-color: #D39ED6;
+    width: 40%;
+    height: 300px;
+    margin-left: -5%;
+    margin-top: 100px;}
+
+.center{
+	height:500px;
+	margin-bottom:8px;
+	width:59%;
+	float:right;}
+
+.center:after {
+  	content: "";
+  	display: table;
+  	clear: both;}
+
+.right{
+	background-color: #ED8719;
+
+	color:white;
+	height: 300px;	}
+
+.extra{
+	background-color: #8AE33B;
+	color:white;
+	height: 190px;
+	text-align: center;
+	margin-top: 10px;}
